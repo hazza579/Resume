@@ -363,6 +363,10 @@ button[type="submit"]{
     background-color: #e84610;
 }
 
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
 /* Media Queries */
 
 @media(min-width: 992px){
